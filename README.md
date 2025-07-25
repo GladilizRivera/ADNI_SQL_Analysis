@@ -16,8 +16,8 @@ adni-biomarker-sql-project/
 ├── sql/
 │   └── adni_biomarker_analysis_queries.sql
 │
-├── images/ (optional)
-│   └── plots, charts exported from Python or Tableau
+├── images/ 
+│   └── Tableau dashboards (exported as .png)
 │
 └── README.md
 ```
@@ -33,6 +33,16 @@ adni-biomarker-sql-project/
 
 This project uses de-identified, participant-level data from the Alzheimer's Disease Neuroimaging Initiative (ADNI). To access the raw data, users must apply through the [ADNI Data Sharing and Publications page](https://adni.loni.usc.edu/data-samples/access-data/). No individual-level data is shared in this repository.
 
+## Visualizations
+
+This project includes Tableau dashboards highlighting biomarker and cognitive data trends.
+
+| CSF Biomarker Levels by Diagnosis| Bar chart showing average Aβ42, total tau, and p-tau levels for each diagnostic group. Highlights lower Aβ42 and higher tau in Alzheimer's. |
+| Biomarkers vs MMSE | Scatterplots showing negative correlations between tau/p-tau and MMSE, and positive correlation for Aβ42. |
+| APOE4 Carrier Distribution | Stacked bar chart showing % of APOE4 carriers in each diagnostic group. Clear gradient: CN < MCI < AD. |
+| Full Demographic + Biomarker Summary | Combined chart summarizing group-level MMSE, age, APOE4 %, and biomarker levels. Useful for overview comparisons. |
+
+🖼️ Tableau dashboards are available in the `/images` folder.
 ## Tools Used
 
 - MySQL (data import and query)
@@ -42,9 +52,7 @@ This project uses de-identified, participant-level data from the Alzheimer's Dis
 
 ## Next Steps
 
-- Add Tableau dashboards or Python plots to the `/images` folder
 - Extend analysis to longitudinal changes (e.g., MMSE or biomarkers)
-- Integrate MRI or PET biomarkers in future versions
 
 ## Contact
 
