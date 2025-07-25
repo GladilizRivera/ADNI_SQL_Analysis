@@ -22,7 +22,7 @@ adni-biomarker-sql-project/
 └── README.md
 ```
 
-## Key Analyses
+## Analyses
 
 - Group-level summaries of Aβ42, tau, and p-tau by clinical diagnosis (e.g., CN, MCI, AD)
 - Correlation-ready table of biomarkers vs MMSE score
@@ -56,7 +56,7 @@ This project includes Tableau dashboards highlighting biomarker and cognitive da
 
 ## Contact
 
-Gladiliz Rivera – Clinical Researcher & Aspiring Data Analyst  
+Gladiliz Rivera – Clinical Researcher & Data Analyst  
 Project assembled as part of a learning portfolio to demonstrate SQL and healthcare data analysis skills.
 
 ---
