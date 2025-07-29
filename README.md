@@ -42,7 +42,7 @@ This project includes Tableau dashboards highlighting biomarker and cognitive da
 | APOE4 Carrier Distribution | Stacked bar chart showing % of APOE4 carriers in each diagnostic group. Clear gradient: CN < MCI < AD. |
 | Full Demographic + Biomarker Summary | Combined chart summarizing group-level MMSE, age, APOE4 %, and biomarker levels. Useful for overview comparisons. |
 
-🖼️ Tableau dashboards are available in the `/images` folder.
+ Tableau dashboards are available in the `/images` folder.
 ## Tools Used
 
 - MySQL (data import and query)
